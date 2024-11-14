@@ -1,55 +1,56 @@
 import tkinter as tk
 from tkinter import messagebox
+from tkinter import font
 import pickle
 
 class TodoApp:
     def __init__(self, root):
         self.root = root
         self.root.title("To-Do List App")
-        self.root.geometry("400x500")
-        self.root.config(bg="#f4f4f4")
+        self.root.geometry("500x600")
+        self.root.config(bg="#e0e0e0")
         
-        # Icon für das Tkinter-Fenster
+        # Icon für das Tkinter-Fenster (optional)
         try:
             self.root.iconbitmap("E:/Tools/tkinter/icon_test.ico")
         except Exception as e:
             print(f"Icon konnte nicht geladen werden: {e}")
 
         # Titel Label
-        self.title_label = tk.Label(root, text="Meine To-Do Liste", font=("Helvetica", 16, "bold"), bg="#f4f4f4")
-        self.title_label.pack(pady=10)
+        self.title_label = tk.Label(root, text="Meine To-Do Liste", font=("Helvetica", 20, "bold"), bg="#009688", fg="white")
+        self.title_label.pack(pady=20, fill="x")
 
         # Liste der Aufgaben
-        self.task_listbox = tk.Listbox(root, width=50, height=15, selectmode=tk.SINGLE, font=("Helvetica", 12))
-        self.task_listbox.pack(pady=10)
+        self.task_listbox = tk.Listbox(root, width=50, height=15, selectmode=tk.SINGLE, font=("Helvetica", 12), bg="#f5f5f5", bd=2, relief="sunken")
+        self.task_listbox.pack(pady=20)
 
         # Eintrag für neue Aufgabe
-        self.task_entry = tk.Entry(root, width=45, font=("Helvetica", 12))
+        self.task_entry = tk.Entry(root, width=45, font=("Helvetica", 12), bd=2, relief="sunken")
         self.task_entry.pack(pady=10)
 
-        #Event-Binding für Enter-Taste
+        # Event-Binding für Enter-Taste
         self.task_entry.bind("<Return>", lambda event: self.add_task())
 
-        # Buttons
-        button_frame = tk.Frame(root)
+        # Buttons (abgerundete Ecken, stilisierte Farben)
+        button_frame = tk.Frame(root, bg="#e0e0e0")
         button_frame.pack(pady=10)
 
-        self.add_button = tk.Button(button_frame, text="Hinzufügen", command=self.add_task, width=12, font=("Helvetica", 10))
-        self.add_button.grid(row=0, column=0, padx=5)
+        self.add_button = tk.Button(button_frame, text="Hinzufügen", command=self.add_task, width=12, font=("Helvetica", 12), bg="#4CAF50", fg="white", relief="flat", padx=10, pady=5)
+        self.add_button.grid(row=0, column=0, padx=10)
 
-        self.delete_button = tk.Button(button_frame, text="Löschen", command=self.delete_task, width=12, font=("Helvetica", 10))
-        self.delete_button.grid(row=0, column=1, padx=5)
+        self.delete_button = tk.Button(button_frame, text="Löschen", command=self.delete_task, width=12, font=("Helvetica", 12), bg="#f44336", fg="white", relief="flat", padx=10, pady=5)
+        self.delete_button.grid(row=0, column=1, padx=10)
 
-        self.done_button = tk.Button(button_frame, text="Erledigt", command=self.mark_as_done, width=12, font=("Helvetica", 10))
-        self.done_button.grid(row=0, column=2, padx=5)
+        self.done_button = tk.Button(button_frame, text="Erledigt", command=self.mark_as_done, width=12, font=("Helvetica", 12), bg="#2196F3", fg="white", relief="flat", padx=10, pady=5)
+        self.done_button.grid(row=0, column=2, padx=10)
 
         # Bearbeiten-Button
-        self.edit_button = tk.Button(button_frame, text="Bearbeiten", command=self.edit_task, width=12, font=("Helvetica", 10))
-        self.edit_button.grid(row=1, column=1, padx=5, pady=5)
+        self.edit_button = tk.Button(button_frame, text="Bearbeiten", command=self.edit_task, width=12, font=("Helvetica", 12), bg="#FF9800", fg="white", relief="flat", padx=10, pady=5)
+        self.edit_button.grid(row=1, column=1, pady=10)
 
         # Liste laden, falls vorhanden
         self.load_tasks()
-        
+
         # Attribute für den aktuell bearbeiteten Task
         self.current_edit_index = None  # Speichert den Index der Aufgabe, die gerade bearbeitet wird
 

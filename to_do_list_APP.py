@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-from tkinter import font
 import pickle
 
 class TodoApp:
@@ -20,33 +19,42 @@ class TodoApp:
         self.title_label = tk.Label(root, text="Meine To-Do Liste", font=("Helvetica", 20, "bold"), bg="#009688", fg="white")
         self.title_label.pack(pady=20, fill="x")
 
-        # Liste der Aufgaben
-        self.task_listbox = tk.Listbox(root, width=50, height=15, selectmode=tk.SINGLE, font=("Helvetica", 12), bg="#f5f5f5", bd=2, relief="sunken")
-        self.task_listbox.pack(pady=20)
+        # Hauptframe
+        main_frame = tk.Frame(root, bg="#e0e0e0")
+        main_frame.pack(fill="both", expand=True, padx=10, pady=10)
+
+        # Liste der Aufgaben (anpassbare Breite)
+        self.task_listbox = tk.Listbox(main_frame, selectmode=tk.SINGLE, font=("Helvetica", 12), bg="#f5f5f5", bd=2, relief="sunken")
+        self.task_listbox.pack(fill="both", expand=True, padx=10, pady=10)
 
         # Eintrag für neue Aufgabe
-        self.task_entry = tk.Entry(root, width=45, font=("Helvetica", 12), bd=2, relief="sunken")
-        self.task_entry.pack(pady=10)
+        self.task_entry = tk.Entry(root, font=("Helvetica", 12), bd=2, relief="sunken")
+        self.task_entry.pack(fill="x", padx=10, pady=10)
 
         # Event-Binding für Enter-Taste
         self.task_entry.bind("<Return>", lambda event: self.add_task())
 
-        # Buttons (abgerundete Ecken, stilisierte Farben)
+        # Buttons
         button_frame = tk.Frame(root, bg="#e0e0e0")
-        button_frame.pack(pady=10)
+        button_frame.pack(fill="x", padx=10, pady=10)
 
-        self.add_button = tk.Button(button_frame, text="Hinzufügen", command=self.add_task, width=12, font=("Helvetica", 12), bg="#4CAF50", fg="white", relief="flat", padx=10, pady=5)
-        self.add_button.grid(row=0, column=0, padx=10)
+        self.add_button = tk.Button(button_frame, text="Hinzufügen", command=self.add_task, font=("Helvetica", 12), bg="#4CAF50", fg="white", relief="flat", padx=10, pady=5)
+        self.add_button.grid(row=0, column=0, padx=5, pady=5)
 
-        self.delete_button = tk.Button(button_frame, text="Löschen", command=self.delete_task, width=12, font=("Helvetica", 12), bg="#f44336", fg="white", relief="flat", padx=10, pady=5)
-        self.delete_button.grid(row=0, column=1, padx=10)
+        self.delete_button = tk.Button(button_frame, text="Löschen", command=self.delete_task, font=("Helvetica", 12), bg="#f44336", fg="white", relief="flat", padx=10, pady=5)
+        self.delete_button.grid(row=0, column=1, padx=5, pady=5)
 
-        self.done_button = tk.Button(button_frame, text="Erledigt", command=self.mark_as_done, width=12, font=("Helvetica", 12), bg="#2196F3", fg="white", relief="flat", padx=10, pady=5)
-        self.done_button.grid(row=0, column=2, padx=10)
+        self.done_button = tk.Button(button_frame, text="Erledigt", command=self.mark_as_done, font=("Helvetica", 12), bg="#2196F3", fg="white", relief="flat", padx=10, pady=5)
+        self.done_button.grid(row=0, column=2, padx=5, pady=5)
 
-        # Bearbeiten-Button
-        self.edit_button = tk.Button(button_frame, text="Bearbeiten", command=self.edit_task, width=12, font=("Helvetica", 12), bg="#FF9800", fg="white", relief="flat", padx=10, pady=5)
-        self.edit_button.grid(row=1, column=1, pady=10)
+        self.edit_button = tk.Button(button_frame, text="Bearbeiten", command=self.edit_task, font=("Helvetica", 12), bg="#FF9800", fg="white", relief="flat", padx=10, pady=5)
+        self.edit_button.grid(row=0, column=3, padx=5, pady=5)
+
+        # Grid-Konfiguration für Buttons
+        button_frame.grid_columnconfigure(0, weight=1)
+        button_frame.grid_columnconfigure(1, weight=1)
+        button_frame.grid_columnconfigure(2, weight=1)
+        button_frame.grid_columnconfigure(3, weight=1)
 
         # Liste laden, falls vorhanden
         self.load_tasks()

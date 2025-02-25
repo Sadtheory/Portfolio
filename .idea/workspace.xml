@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="492b6ff6-e17c-4844-9111-ebbe59f37c1e" name="Changes" comment="some new idea">
-      <change afterPath="$PROJECT_DIR$/pinguin_ML.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panda_test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -82,6 +83,7 @@
       <workItem from="1737114737466" duration="3288000" />
       <workItem from="1740146284828" duration="38000" />
       <workItem from="1740146392051" duration="148000" />
+      <workItem from="1740481292348" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="some new idea">
       <option name="closed" value="true" />
@@ -91,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737115193527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some new idea">
+      <option name="closed" value="true" />
+      <created>1740481513950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740481513950</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,8 +113,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Portfolio$Tensors.coverage" NAME="Tensors Coverage Results" MODIFIED="1736944564590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Portfolio$pinguin_ML.coverage" NAME="pinguin_ML Coverage Results" MODIFIED="1737117957679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$pinguin_ML.coverage" NAME="pinguin_ML Coverage Results" MODIFIED="1740481352443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Portfolio$ML_Linear_Regression.coverage" NAME="ML-Linear_Regression Coverage Results" MODIFIED="1736886528571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Portfolio$Pytorch.coverage" NAME="Pytorch Coverage Results" MODIFIED="1736943785164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$Pytorch.coverage" NAME="Pytorch Coverage Results" MODIFIED="1740481429879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

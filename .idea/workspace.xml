@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492b6ff6-e17c-4844-9111-ebbe59f37c1e" name="Changes" comment="some new idea">
-      <change afterPath="$PROJECT_DIR$/panda_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="492b6ff6-e17c-4844-9111-ebbe59f37c1e" name="Changes" comment="tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +21,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sadtheory/Portfolio.git",
+    "accountId": "5ee0710b-75d9-41e5-b51d-052966d9244a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -83,7 +86,7 @@
       <workItem from="1737114737466" duration="3288000" />
       <workItem from="1740146284828" duration="38000" />
       <workItem from="1740146392051" duration="148000" />
-      <workItem from="1740481292348" duration="1060000" />
+      <workItem from="1740481292348" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="some new idea">
       <option name="closed" value="true" />
@@ -101,15 +104,33 @@
       <option name="project" value="LOCAL" />
       <updated>1740481513950</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some new idea">
+      <option name="closed" value="true" />
+      <created>1740482432634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740482432634</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tests">
+      <option name="closed" value="true" />
+      <created>1740482604969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740482604969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test's mit dem Pytorch Framework" />
     <MESSAGE value="some new idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="some new idea" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Portfolio$Tensors.coverage" NAME="Tensors Coverage Results" MODIFIED="1736944564590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

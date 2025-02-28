@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492b6ff6-e17c-4844-9111-ebbe59f37c1e" name="Changes" comment="tests" />
+    <list default="true" id="492b6ff6-e17c-4844-9111-ebbe59f37c1e" name="Changes" comment="kleine Auffrischung zu OOP: &#10;Encapsulation Abstraction, Inheritance, Polymorphism.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgesAndHeights.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Black_Jack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chatbot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML-Linear_Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pytorch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensors_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/train-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/train-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/panda_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinguin_ML.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic_tac_toe_APP.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/to_do_list_APP.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +43,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Cynthia Kraft &lt;143434688+sadtheory@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sadtheory/Portfolio.git",
-    "accountId": "5ee0710b-75d9-41e5-b51d-052966d9244a"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sadtheory&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sadtheory/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;5ee0710b-75d9-41e5-b51d-052966d9244a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -35,31 +70,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.ML-Linear_Regression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pytorch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tensors.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pinguin_ML.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Tools/tkinter/Portfolie/Portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.Black_Jack.executor": "Run",
+    "Python.Chatbot.executor": "Run",
+    "Python.Datasets_test.executor": "Run",
+    "Python.ML-Linear_Regression.executor": "Run",
+    "Python.Pytorch.executor": "Run",
+    "Python.Tensors.executor": "Run",
+    "Python.Tensors_test.executor": "Run",
+    "Python.open-cv_tutorial1.executor": "Run",
+    "Python.open-cv_tutorial2.executor": "Run",
+    "Python.pinguin_ML.executor": "Run",
+    "Python.tic_tac_toe_APP.executor": "Run",
+    "Python.to_do_list_APP.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Tools/tkinter/Portfolie/Portfolio/OpenCV Tutorial",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Tools\tkinter\Portfolie\Portfolio\OpenCV Tutorial" />
       <recent name="E:\Tools\tkinter\Portfolie\Portfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Tools\tkinter\Portfolie\Portfolio\OpenCV Tutorial\assets" />
+      <recent name="E:\Tools\tkinter\Portfolie\Portfolio\OpenCV Tutorial" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -86,7 +134,12 @@
       <workItem from="1737114737466" duration="3288000" />
       <workItem from="1740146284828" duration="38000" />
       <workItem from="1740146392051" duration="148000" />
-      <workItem from="1740481292348" duration="1405000" />
+      <workItem from="1740481292348" duration="2280000" />
+      <workItem from="1740484863770" duration="5798000" />
+      <workItem from="1740674583959" duration="1907000" />
+      <workItem from="1740676968764" duration="1916000" />
+      <workItem from="1740734385367" duration="1219000" />
+      <workItem from="1740744708033" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="some new idea">
       <option name="closed" value="true" />
@@ -120,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740482604969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="paar tests mit Pycharm + Git df">
+      <option name="closed" value="true" />
+      <created>1740482832212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740482832212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kleine Auffrischung zu OOP: &#10;Encapsulation Abstraction, Inheritance, Polymorphism.">
+      <option name="closed" value="true" />
+      <created>1740735002662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740735002662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,12 +199,22 @@
     <MESSAGE value="Test's mit dem Pytorch Framework" />
     <MESSAGE value="some new idea" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="paar tests mit Pycharm + Git df" />
+    <MESSAGE value="kleine Auffrischung zu OOP: &#10;Encapsulation Abstraction, Inheritance, Polymorphism." />
+    <option name="LAST_COMMIT_MESSAGE" value="kleine Auffrischung zu OOP: &#10;Encapsulation Abstraction, Inheritance, Polymorphism." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Portfolio$to_do_list_APP.coverage" NAME="to_do_list_APP Coverage Results" MODIFIED="1740745480938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Portfolio$Tensors.coverage" NAME="Tensors Coverage Results" MODIFIED="1736944564590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Portfolio$pinguin_ML.coverage" NAME="pinguin_ML Coverage Results" MODIFIED="1740481352443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Portfolio$ML_Linear_Regression.coverage" NAME="ML-Linear_Regression Coverage Results" MODIFIED="1736886528571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Portfolio$Pytorch.coverage" NAME="Pytorch Coverage Results" MODIFIED="1740481429879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$tic_tac_toe_APP.coverage" NAME="tic_tac_toe_APP Coverage Results" MODIFIED="1740745493080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$ML_Linear_Regression.coverage" NAME="ML-Linear_Regression Coverage Results" MODIFIED="1740745865174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_Deep_Learning" />
+    <SUITE FILE_PATH="coverage/Portfolio$open_cv_tutorial1.coverage" NAME="open-cv_tutorial1 Coverage Results" MODIFIED="1740676881549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV Tutorial" />
+    <SUITE FILE_PATH="coverage/Portfolio$Chatbot.coverage" NAME="Chatbot Coverage Results" MODIFIED="1740745849077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_Deep_Learning" />
+    <SUITE FILE_PATH="coverage/Portfolio$open_cv_tutorial2.coverage" NAME="open-cv_tutorial2 Coverage Results" MODIFIED="1740681640134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV Tutorial" />
+    <SUITE FILE_PATH="coverage/Portfolio$Black_Jack.coverage" NAME="Black_Jack Coverage Results" MODIFIED="1740744867934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Portfolio$Datasets_test.coverage" NAME="Datasets_test Coverage Results" MODIFIED="1740745789443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tutorials_Tests" />
+    <SUITE FILE_PATH="coverage/Portfolio$pinguin_ML.coverage" NAME="pinguin_ML Coverage Results" MODIFIED="1740745873436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_Deep_Learning" />
+    <SUITE FILE_PATH="coverage/Portfolio$Tensors_test.coverage" NAME="Tensors_test Coverage Results" MODIFIED="1740745830457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tutorials_Tests" />
+    <SUITE FILE_PATH="coverage/Portfolio$Pytorch.coverage" NAME="Pytorch Coverage Results" MODIFIED="1740745882735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_Deep_Learning" />
   </component>
 </project>
